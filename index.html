@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple HTML Page</title>
+</head>
+<body>
+
+<h1>Hello, World!</h1>
+
+<p>Current date and time: <span id="datetime"></span></p>
+
+<script>
+  // JavaScript to update the date and time dynamically
+  var dt = new Date();
+  document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+
+</body>
+</html>
